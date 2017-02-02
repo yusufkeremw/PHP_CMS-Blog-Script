@@ -1,0 +1,212 @@
+
+/* import */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700&subset=latin,latin-ext);
+@import "css/grid.css";
+@import "css/reset.css";
+@font-face{font-family: ntblog;src: url(./font/ntblog.woff);}
+
+/* site */
+body{font-family:Roboto, Open Sans, sans-serif, Arial, Verdana, "Trebuchet MS";font-size:15px;background:#fff}
+
+/* header */
+header{}
+header .navbar{background: #212429;height: 90px;}
+
+/* home */
+header .navbar .top{height: 50px;}
+header .navbar .top .logo{height: 90px;float: left;width: 20%;text-align: center;}
+header .navbar .top .logo a{line-height: 90px;font-size: 48px;color: #fff;font-family: ntblog;}
+
+/* home */
+header .navbar .top .right{float: right;height: 50px;width: 75.1%;margin-right: 18px;border-bottom: 1px solid #32353C;border-left: 1px solid #32353C;line-height: 50px;}
+header .navbar .top .right .list-t{float: left;height: 50px;}
+header .navbar .top .right .list-t nav{float: left;line-height: 50px;padding: 0 10px;}
+header .navbar .top .right .list-t nav ul{display: flex;}
+header .navbar .top .right .list-t nav ul li{}
+header .navbar .top .right .list-t nav ul li a{float: left;padding-right: 10px;color: #fff;font-size: 17px;font-weight: 700;}
+header .navbar .top .right .list-t nav ul li a:hover{color: #e0e0e0;}
+
+
+header .navbar .top .right .social-st{float: right;margin-right: 12px;}
+header .navbar .top .right .fa.fa-facebook{margin-left: 15px;color: #fff;border: 1px solid #4c4c4c;padding: 7px 11px;border-radius: 52px;}
+header .navbar .top .right .fa.fa-facebook:hover{background:#2A388F	}
+header .navbar .top .right .fa.fa-google-plus{margin-left: 0px;color: #fff;border: 1px solid #4c4c4c;padding: 7px 5px;width: 33px;padding-left: 8px;border-radius: 52px;}
+header .navbar .top .right .fa.fa-google-plus:hover{background:#BD1D2C}
+header .navbar .top .right .fa.fa-youtube-play{margin-left: 0px;color: #fff;border: 1px solid #4c4c4c;padding: 7px 8px;border-radius: 52px;}
+header .navbar .top .right .fa.fa-youtube-play:hover{background:#ED1B23}
+header .navbar .top .right .fa.fa-twitter{margin-left: 0px;color: #fff;border: 1px solid #4c4c4c;padding: 7px 8px;border-radius: 52px;}
+header .navbar .top .right .fa.fa-twitter:hover{background:#26AAE0}
+header .navbar .top .right .social-net{float: left;color: #fff;font-size: 13px;padding-right: 10px;font-weight: bolder;text-transform: uppercase;}
+
+/* home */
+header .navbar .bottom{height: 40px;float: right;width: 77%;}
+header .navbar .bottom .list-b{float: right;height: 40px;width: 100%;border-left: 1px solid #32353C;}
+header .navbar .bottom .list-b nav{float: left;line-height: 38px;padding: 0 10px;}
+header .navbar .bottom .list-b nav ul{display: flex;}
+header .navbar .bottom .list-b nav ul li{}
+header .navbar .bottom .list-b nav ul li a{float: left;padding-right: 10px;color: #aaa;font-size: 13px;font-weight: 700;}
+header .navbar .bottom .list-b nav ul li a:hover{color: #e0e0e0;}
+
+/* home */
+main.home{margin-top: 20px;}
+main.home .container .col-md-4{padding-left: 0;}
+main.home aside{}
+
+/* home */
+main.home aside .post{width: 267px;float: left;margin-right: 30px;margin-bottom: 20px;}
+main.home aside .post .title{font-weight: bolder;margin-bottom: 5px;word-wrap: break-word;word-break: break-word;}
+main.home aside .post .title a{color:#000}
+main.home aside .post .title a:hover{color:#676565}
+main.home aside .post .img{background: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-170468.png');height: 140px;width: 285px;background-size: cover;background-position: center;}
+main.home aside .post .category{position: absolute;color: #fff;background: #212429;border-left: 2px solid #00B5D4;padding: 10px 8px;margin-top: 24px;font-size: 14px;font-weight: bold;}
+main.home aside .post .description{font-size: 14px;margin-top: 10px;word-wrap: break-word;word-break: break-word;}
+
+/* home */
+main.home aside .post-2{width: 554px;float: left;margin-right: 20px;margin-bottom: 20px;}
+main.home aside .post-2 .title{word-wrap: break-word;word-break: break-word;position: absolute;margin-top: 143px;font-size: 18px;margin-left: 15px;}
+main.home aside .post-2 .title a{color: #fff;text-shadow: 0 0 2px rgba(0,0,0,0.2);font-weight: bolder;}
+main.home aside .post-2 .img{background: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-380683.jpg');height: 200px;width: 586px;background-size: cover;background-position: center;}
+main.home aside .post-2 .category{position: absolute;color: #fff;background: #212429;border-left: 2px solid #F5D83C;padding: 10px 8px;margin-top: 24px;font-size: 14px;font-weight: bold;}
+main.home aside .post-2 .description{font-size: 14px;margin-top: 10px;word-wrap: break-word;word-break: break-word;}
+
+/* home */
+main.home #sidebar{}
+main.home #sidebar .google-img{height: 250px;width: 300px;background: #000;margin-bottom: 10px;}
+
+/* home */
+main.home #sidebar .newsletter{background: #212429;color: #fff;font-size: 13px;font-weight: bolder;text-transform: uppercase;padding: 12px 15px;margin-right: -2px;}
+main.home #sidebar .newsletter-f{margin-top: 10px;}
+main.home #sidebar .newsletter-f form{padding: 0px 10px;}
+main.home #sidebar .newsletter-f form input#mail{border: 1px solid #E3E4E6;padding: 7px 7px;font-size: 13px;width: 238px;}
+main.home #sidebar .newsletter-f form .netts{padding: 8px 5px;margin-left: 135px;background: #444444;color: #fff;font-size: 13px; margin-top:5px;}
+
+/* home */
+main.home #sidebar .last-comment-br{background: #212429;color: #fff;font-size: 13px;font-weight: bolder;text-transform: uppercase;padding: 12px 15px;margin-right: -2px;margin-top: 15px;}
+main.home #sidebar .last-comment{padding: 0px 10px;margin-top: 10px;height: 60px;}
+main.home #sidebar .last-comment .title{float: right;width: 170px;font-size: 14px;margin-bottom: 3px;margin-top: 0px;}
+main.home #sidebar .last-comment .title a{font-weight: bolder;color: #000;}
+main.home #sidebar .last-comment .title a:hover{color:#676565}
+main.home #sidebar .last-comment .img{background: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-11750.jpg');height: 60px;width: 100px;float: left;background-size: cover;background-position: center;}
+main.home #sidebar .last-comment .description{float: right;width: 170px;font-size: 12px;color: #484848;}
+
+/* home */
+main.home-2{margin-top: 20px;}
+main.home-2 .w1{font-size: 13px;margin: 0;line-height: 0;width: 94%;margin-left: 2%;color: #888888;text-transform: uppercase;text-align: center;margin-bottom: 25px;border: 1px solid rgba(226, 227, 229, 0.58);}
+main.home-2 .w1 span{background: #FFFFFF;padding: 0 10px;position: relative;font-weight: 700;box-sizing: border-box;}
+main.home-2 .post{width: 286px;float: left;margin-bottom: 20px;}
+main.home-2 .post.right{}
+main.home-2 .post .title{margin-bottom: 5px;word-wrap: break-word;word-break: break-word;}
+main.home-2 .post .title a{font-weight: bolder;color:#000}
+main.home-2 .post .title a:hover{color:#676565}
+main.home-2 .post .img{background: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-156339.jpg');height: 140px;width: 100%;background-size: cover;background-position: center;}
+main.home-2 .post .category{position: absolute;color: #fff;background: #212429;border-left: 2px solid #F98F45;padding: 10px 8px;margin-top: 24px;font-size: 14px;font-weight: bold;}
+main.home-2 .post .description{font-size: 14px;margin-top: 10px;word-wrap: break-word;word-break: break-word;}
+
+
+/* post */
+main.home .post-content{width: 100%;float: left;}
+main.home .post-content .title{font-weight: bolder;margin-bottom: 5px;word-wrap: break-word;word-break: break-word;}
+main.home .post-content .title a{color:#000}
+main.home .post-content .category{position: absolute;color: #fff;background: #212429;border-left: 2px solid #00B5D4;padding: 10px 8px;margin-top: 24px;font-size: 14px;font-weight: bold;}
+main.home .post-content .img{background: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-170468.png');height: 140px;width: 100%;background-size: cover;background-position: center;}
+main.home .post-content .description{font-size: 15px;color: #484848;padding: 14px 0;word-wrap: break-word;word-break: break-word;}
+
+
+main.home .user{
+    float: left;
+    height: 91px;
+    width: 100%;
+    border-top: 1px solid #efefef;
+    padding: 16px 0;
+}
+main.home .user .title{
+    float: right;
+    width: 88%;
+    margin-top: 11px;
+    font-size: 1em;
+    line-height: 1em;
+    font-weight: 700;
+    font-style: normal;
+    color: #333333;
+    margin-bottom: 5px;
+}
+main.home .user .img{
+    background: url('https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/10525870_1542742452660378_8536404329735290006_n.jpg?oh=8369ffc93a65966603bb58362cf72122&oe=58343303');
+    height: 60px;
+    width: 60px;
+    float: left;
+    border-radius: 35px;
+    background-size: cover;
+    background-position: center;
+}
+main.home .user .description{
+    float: right;
+    width: 88%;
+    font-size: 15px;
+    line-height: 1.125em;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    margin-bottom: 5px;
+}
+main.home .user .social{}
+#sayfa{
+	margin-right: 5px;
+	width:12%;
+}
+/* footer */
+footer{height: 40px;margin-top: 20px;}
+footer .ftr{border-bottom: 1px solid #efefef;width: 96%;margin-left: 2%;}
+
+/* Mobile */
+@media (max-width: 767px) {	
+	header .navbar{height: 60px;}
+	header .navbar .top{height:0}
+	header .navbar .bottom{display:none}	
+	header .navbar .top .right{display:none}
+	header .navbar .top .logo{height:0;width: 100%;}
+	header .navbar .top .logo a{line-height: 63px;font-size: 36px;}
+	main.home aside .post{width:100%;float:none;margin-left:0}
+	main.home aside .post .img{width:100%}
+	main.home aside .post-2{margin-left:0;width:100%;margin-left:0}
+	main.home aside .post-2 .img{width:100%}
+	main.home .container .col-md-4{display:none}
+	main.home-2 .post{width:100%;margin-left:0}
+	main.home .user .title{width: 73%}
+	main.home .user .description{width: 73%}
+	
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+	main.home .container .col-md-4{display:none}
+	main.home-2 .post{margin-right: 10px;width: 220px;}
+	main.home-2 .post .img{height:115px}
+	main.home aside .post{width: 330px;float: left;margin-right: 15px;}	
+	main.home aside .post .img{width: 335px}
+	main.home aside .post-2{width: 98%;margin-right: 10px;float: left;}
+	main.home aside .post-2 .img{width: 681px}	
+	header .navbar .top .right{width: 74.5%}
+}
+
+/* Desktop */
+@media (min-width: 992px) and (max-width: 1199px) {
+	main.home #sidebar .google-img{display:none}
+	main.home .col-md-8{border-right: 1px solid #E2E3E5;}	
+}
+
+/* Desktop Large */
+@media (min-width: 1200px) {
+	main.home .col-md-8{border-right: 1px solid #E2E3E5;}
+	main.home-2 .post{width:350px}
+	main.home aside .post{width: 350px;margin-right: 10px;}
+	main.home aside .post .img{width:350px}
+	main.home aside .post-2{width: 710px;}	
+	main.home aside .post-2 .img{ width: 710px}	
+	main.home #sidebar .google-img{display:none}
+	main.home #sidebar .last-comment .img{width:125px}
+	main.home #sidebar .last-comment .title{width:210px}
+	main.home #sidebar .last-comment .description{width:210px}
+	main.home #sidebar .newsletter-f form input#mail{width: 305px}		
+	header .navbar .top .right{width: 75.4%;}
+}
