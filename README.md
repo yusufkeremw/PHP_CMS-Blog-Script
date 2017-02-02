@@ -14,13 +14,13 @@
  
  ### "blog" veritabanı içine "blog" , "kategoriler" , "sitebaslik", "yorumlar" adında 4 Tablo oluşturun.
  
- ### "blog" TABLOSU içine "id" , "baslik" , "yazi" , "kat", "resim" adında 5 Satır ekleyin. "id" satırına A_I özelliğini işaretleyin, diğer satırların özelliği "TEXT" olarak işaretleyin.  
+ ### "blog" TABLOSU içine "id" , "baslik" , "yazi" , "kat", "resim" adında 5 Satır ekleyin. "id" sütununa A_I özelliğini işaretleyin, diğer sütunların özelliği "TEXT" olarak işaretleyin.  
  
- ### "kategoriler" TABLOSU içine "id" ve "kategori" adında 2 Satır ekleyin. "id" satırına A_I özelliğini işaretleyin. diğer satırın özelliğini de "TEXT" olarak işaretleyin.
+ ### "kategoriler" TABLOSU içine "id" ve "kategori" adında 2 Satır ekleyin. "id" sütununa A_I özelliğini işaretleyin. diğer sütunun özelliğini de "TEXT" olarak işaretleyin.
  
- ### "sitebaslik" TABLOSU içine "id" ve "sitebaslik"adında 2 Satır ekleyin. "id" satırına A_I özelliğini işaretleyin. diğer satırın özelliğini de "TEXT" olarak işaretleyin.
+ ### "sitebaslik" TABLOSU içine "id" ve "sitebaslik"adında 2 Satır ekleyin. "id" sütununa A_I özelliğini işaretleyin. diğer sütunun özelliğini de "TEXT" olarak işaretleyin.
  
- ### "yorumlar" TABLOSU içine "id" , "ad" , "yorum" , "yaziid" adına 4 Satır ekleyin. SADECE "id" satırına A_I özelliğini işaretleyin. Diğer sarırların özelliğini "TEXT" olarak işaretleyin.
+ ### "yorumlar" TABLOSU içine "id" , "ad" , "yorum" , "yaziid" adına 4 Satır ekleyin. SADECE "id" sütununa A_I özelliğini işaretleyin. Diğer sütunların özelliğini "TEXT" olarak işaretleyin.
  
  ### Kod editöründe "panel.php" dosyasını açın ve 19 ve 20. satırların "admin" yazdığı bölümleri silin ve sırasıyla kullanıcı adınızı ve şifrenizi alt alta ekleyin.
  
