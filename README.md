@@ -25,3 +25,5 @@
  ### Kod editöründe "panel.php" dosyasını açın ve 19 ve 20. satırların "admin" yazdığı bölümleri silin ve sırasıyla kullanıcı adınızı ve şifrenizi alt alta ekleyin.
  
  ### Kod editöründe "ayar.php" dosyasını açın ve kendinize göre düzenleyin.
+ 
+ ### Kendi sitenizde panel.php sayfasına girin ve yazmaya başlayın :) 
